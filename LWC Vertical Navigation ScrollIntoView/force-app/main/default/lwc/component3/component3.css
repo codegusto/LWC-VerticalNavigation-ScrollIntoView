@@ -1,0 +1,17 @@
+:host {
+    display: block;
+    height: 500px; /* Larger height to show significant scroll */
+    background-color: #b0c4de; /* Light xxx background */
+    margin-bottom: 20px;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+.grid-item {
+    background-color: #f1f1f1;
+    padding: 20px;
+    text-align: center;
+    border: 1px solid #ccc;
+}

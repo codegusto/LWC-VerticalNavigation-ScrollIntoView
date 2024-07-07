@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <types>
+        <members>component1</members>
+        <members>component2</members>
+        <members>component3</members>
+        <members>contentContainer</members>
+        <members>mainLayout</members>
+        <members>verticalNavComponent</members>
+        <name>LightningComponentBundle</name>
+    </types>
+    <version>61.0</version>
+</Package>

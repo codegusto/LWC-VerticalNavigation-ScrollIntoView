@@ -1,0 +1,20 @@
+<template>
+    <div class="container">
+        <div class="navigation">
+            <c-vertical-nav-component onscrollto={handleScrollTo}></c-vertical-nav-component>
+        </div>
+        <div class="content">
+            <c-content-container>
+                <div slot="component1" id="component1">
+                    <c-component1></c-component1>
+                </div>
+                <div slot="component2" id="component2">
+                    <c-component2></c-component2>
+                </div>
+                <div slot="component3" id="component3">
+                    <c-component3></c-component3>
+                </div>
+            </c-content-container>
+        </div>
+    </div>
+</template>

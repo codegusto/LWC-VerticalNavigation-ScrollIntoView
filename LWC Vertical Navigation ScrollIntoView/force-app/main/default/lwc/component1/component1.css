@@ -1,0 +1,36 @@
+:host {
+    display: block;
+    /*height: 500px;  Larger height to show significant scroll */
+    background-color: #f4f6f9; /* Light gray background */
+    margin-bottom: 20px;
+}
+.account-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.account-header lightning-icon {
+    margin-right: 10px;
+}
+.account-header h1 {
+    margin: 0;
+}
+.account-details {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 10px;
+}
+.field-headings {
+    display: contents;
+    font-weight: bold;
+}
+.field-values {
+    display: contents;
+}
+.field-values span a {
+    color: #0070d2;
+    text-decoration: none;
+}
+.field-values span a:hover {
+    text-decoration: underline;
+}

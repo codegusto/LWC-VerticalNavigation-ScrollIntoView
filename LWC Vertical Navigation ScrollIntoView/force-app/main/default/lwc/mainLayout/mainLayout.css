@@ -1,0 +1,16 @@
+.container {
+    display: flex;
+    height: 100vh;
+}
+.navigation {
+    width: 200px;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+    background-color: #f4f6f9; /* Optional: Add background color */
+}
+.content {
+    margin-left: 200px; /* Adjust this value to match the width of the nav-container */
+    width: calc(100% - 200px);
+    padding: 20px; /* Optional: Add padding */
+}
